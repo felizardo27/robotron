@@ -57,8 +57,6 @@ function manipulaDados(operacao, controle){
 
 function atualizaEstatisticas(peca, operacao){
     elementoPecas = pecas[peca];
-    console.log(elementoPecas);
-    
     estatisticas.forEach( (elemento) => {
         // devolve o nome dataset do elemento em estatisticas
         elementoData = elemento.dataset.estatistica 
